@@ -12,6 +12,8 @@ Authors@R:
 Description: A simple way to unload none-base packages and remove all global
     variables
 License: MIT + file LICENSE
+URL: https://github.com/shawnlinxl/freshr
+BugReports: https://github.com/shawnlinxl/freshr/issues
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
