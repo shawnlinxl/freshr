@@ -6,7 +6,7 @@ Authors@R:
     person(
         given  = "Shawn", 
         family = "Lin", 
-        email  = "xl2512@columbia.edu", 
+        email  = "shawnlin.xl@gmail.com", 
         role   = c("aut", "cre")
     )
 Description: A simple way to unload none-base packages and remove all global
