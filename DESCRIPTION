@@ -7,7 +7,8 @@ Authors@R:
         given  = "Shawn", 
         family = "Lin", 
         email  = "shawnlin.xl@gmail.com", 
-        role   = c("aut", "cre")
+        role   = c("aut", "cre"), 
+        comment = c(ORCID = "0000-0001-5564-8371")
     )
 Description: A simple way to unload none-base packages and remove all global
     variables.
