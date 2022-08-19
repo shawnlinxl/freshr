@@ -2,7 +2,7 @@
 # freshr
 
 <!-- badges: start -->
-[![R CMD Check](https://github.com/shawnlinxl/freshr/actions/workflows/R_CMD_CHECK.yml/badge.svg)](https://github.com/shawnlinxl/freshr/actions/workflows/R_CMD_CHECK.yml)
+[![R CMD CHECK](https://github.com/shawnlinxl/freshr/actions/workflows/R_CMD_CHECK.yml/badge.svg)](https://github.com/shawnlinxl/freshr/actions/workflows/R_CMD_CHECK.yml)
 <!-- badges: end -->
 
 The goal of freshr is to help you refresh your working environment in Rstudio and create reproducible scripts.
