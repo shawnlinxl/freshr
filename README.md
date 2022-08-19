@@ -4,22 +4,26 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of freshr is to ...
+The goal of freshr is to help you refresh your working environment in Rstudio and create reproducible scripts.
 
 ## Installation
 
 You can install the development version of freshr like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+remotes::install_github('shawnlinxl/freshr')
 ```
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+freshr is always called once at the top of your script. Call it at the top of your main.R script if it is a project with multiple scripts. Source your script and see after the environment is refreshed whether your script contains all the imports and variables needed for it to execute.
+
+Example:
 
 ``` r
-library(freshr)
-## basic example code
+freshr::freshr()
+
+library(ggplot2)
+ggplot(mtcars) + geom_point(aes(x = mpg, y = hp))
 ```
 
