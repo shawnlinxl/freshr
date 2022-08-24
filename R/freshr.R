@@ -1,5 +1,6 @@
 freshr <- function() {
     #' Unload none-base packages and remove all objects from environment
+    #'
     #' @description Ever experienced a time when you pass an R script to your
     #'   colleague, and it does not work on their machine because you forgot to
     #'   add a library import that you did interactively? freshr is here to
@@ -7,11 +8,18 @@ freshr <- function() {
     #'   create a fresh environment for you to test reproducibility before you
     #'   send your script to someone else.
     #'
+    #' @return This function returns no value. It is called for its side effect
+    #'   of cleaning up the global environment at script's start up/
+    #'
     #' @importFrom utils sessionInfo
+    #'
     #' @export
 
     # Drop all variables from global workspace
-    rm(list = ls(all.names = TRUE, envir = .GlobalEnv), envir = .GlobalEnv)
+    rm(
+        list = ls(all.names = TRUE, envir = parent.frame()),
+        envir = parent.frame()
+    )
 
     # Unload none-base packages from global environment
     # https://stackoverflow.com/questions/7505547/

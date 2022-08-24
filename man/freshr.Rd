@@ -6,6 +6,10 @@
 \usage{
 freshr()
 }
+\value{
+This function returns no value. It is called for its side effect
+of cleaning up the global environment at script's start up/
+}
 \description{
 Ever experienced a time when you pass an R script to your
 colleague, and it does not work on their machine because you forgot to
