@@ -4,7 +4,7 @@ testthat::test_that("Dropping Variables Work", {
     var2 <- 2
     var3 <- rep(var1, 10)
     freshr::freshr()
-    testthat::expect_equal(length(ls(envir = parent.frame())), 0)
+    testthat::expect_equal(length(ls(envir = .GlobalEnv)), 0)
 
 })
 
