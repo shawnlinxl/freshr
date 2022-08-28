@@ -11,15 +11,21 @@ The goal of freshr is to help you refresh your working environment in Rstudio an
 
 ## Installation
 
+To install the official CRAN version, run:
+
+``` r
+install.packages("freshr"")
+```
+
 You can install the development version of freshr like so:
 
 ``` r
-remotes::install_github('shawnlinxl/freshr')
+remotes::install_github("shawnlinxl/freshr"")
 ```
 
 ## Example
 
-freshr is always called once at the top of your script. Call it at the top of your main.R script if it is a project with multiple scripts. Source your script and see after the environment is refreshed whether your script contains all the imports and variables needed for it to execute.
+freshr is meant to be called once at the top of your script. Call it at the top of your main.R script if it is a project with multiple scripts. Source your script and see after the environment is refreshed whether your script contains all the imports and variables needed for it to execute.
 
 Example:
 
@@ -29,4 +35,3 @@ freshr::freshr()
 library(ggplot2)
 ggplot(mtcars) + geom_point(aes(x = mpg, y = hp))
 ```
-
