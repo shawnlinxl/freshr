@@ -3,6 +3,7 @@
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/freshr)](https://CRAN.R-project.org/package=freshr)
+[![](https://cranlogs.r-pkg.org/badges/freshr)](https://cran.r-project.org/package=freshr)
 [![R CMD CHECK](https://github.com/shawnlinxl/freshr/actions/workflows/R_CMD_CHECK.yml/badge.svg)](https://github.com/shawnlinxl/freshr/actions/workflows/R_CMD_CHECK.yml)
 [![codecov](https://codecov.io/gh/shawnlinxl/freshr/branch/master/graph/badge.svg?token=4XBHTBGFEK)](https://app.codecov.io/gh/shawnlinxl/freshr)
 <!-- badges: end -->
