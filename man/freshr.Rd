@@ -4,7 +4,12 @@
 \alias{freshr}
 \title{Unload none-base packages and remove all objects from environment}
 \usage{
-freshr()
+freshr(pkgexc = NULL, varexc = NULL)
+}
+\arguments{
+\item{pkgexc}{list of packages to exclude from removal}
+
+\item{varexc}{list of variables to exclude from removal}
 }
 \value{
 This function returns no value. It is called for its side effect
