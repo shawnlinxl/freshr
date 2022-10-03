@@ -1,7 +1,7 @@
 Package: freshr
 Type: Package
 Title: Make R Environment Fresh Again
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: 
     person(
         given  = "Shawn", 
