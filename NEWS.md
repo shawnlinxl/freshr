@@ -1,3 +1,9 @@
+# freshr 1.0.2
+
+* Updated testthat usage, closed #1
+    - exclude testthat from removal list during testing
+    - added pkgexc and varexc to support the above change
+
 # freshr 1.0.1
 
 * Update package according to CRAN comments:
